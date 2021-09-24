@@ -1,0 +1,276 @@
+@font-face {
+    font-family: GilroyBold;
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: GilroyMedium;
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: GilroyMedium;
+    color: #070707;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    margin-bottom: 32px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 155px;
+    margin-top: 33px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: GilroyBold;
+    font-size: 18px;
+    color: #828282;
+}
+
+.menu .active {
+    color: #070707;
+}
+
+.summary {
+    display: block;
+    font-family: GilroyBold;
+    font-size: 16px;
+    color: #828282;
+    height: 124px;
+    margin-top: 40px;
+}
+
+.summary div {
+    display: block;
+    float: left;
+    margin-right: 297px;
+    height: 124px;
+}
+
+.summary div:last-child {
+    float: right;
+    margin-right: 0;
+}
+
+.summary h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 47px;
+    color: #070707;
+    width: 118px;
+}
+
+.summary p {
+    width: 155px;
+    margin-top: 50px;
+}
+
+.summary b {
+    color: #070707;
+}
+
+.summary a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.language {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding-top: 30px;
+}
+
+.image {
+    margin-top: 50px;
+    margin-bottom: 104px;
+}
+
+#about, #portfolio {
+    background: #f6f6f6;
+}
+
+.about {
+    color: #070707;
+    padding-bottom: 107px;
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+    font-size: 34px;
+    font-family: GilroyBold;
+}
+
+p {
+    margin: 0;
+    font-family: GilroyMedium;
+    font-size: 18px;
+    color: #070707;
+    text-align: center;
+}
+
+.about h2{
+    padding-top: 120px;
+    padding-bottom: 17px;
+}
+
+.about p{
+    margin: 0;
+    margin-left: 225px;
+    padding-bottom: 30px;
+    width: 485px;
+}
+
+#skills h2 {
+    margin-top: 91px;
+    margin-bottom: 69px;
+}
+
+small p {
+    margin-top: 0;
+    text-align: center;
+    font-family: GilroyBold;
+    font-size: 14px;
+    color: #828282;
+}
+
+.skills {
+    margin-top: 82px;
+    margin-bottom: 110px;
+    display: block;
+}
+
+.skill_block {
+    width: 166px;
+    float: left;
+    display: block;
+    margin-right: 90px;
+}
+
+.skill_block:last-child {
+    margin-right: 0;
+}
+
+.background {
+    margin-left: 38px;
+    background: #0C0824;
+    height: 88px;
+    width: 88px;
+    margin-bottom: 24px;
+}
+
+.bg-alternative {
+    margin-left: 52px;
+    height: 88px;
+    width: 88px;
+    margin-bottom: 24px;
+}
+
+.stars_blok {
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    display: block;
+}
+
+.star {
+    float: left;
+    display: block;
+    margin-left: 9px;
+}
+
+#portfolio {
+    padding-top: 113px;
+    padding-bottom: 96px;
+}
+
+#portfolio h2{
+    margin-bottom: 47px;
+}
+
+#portfolio img{
+    margin-bottom: 45px;
+}
+
+.work {
+    margin-bottom: 99px; 
+}
+.work:last-child {
+    margin-bottom: 0; 
+}
+
+.work p{
+    text-decoration: underline; 
+}
+
+footer {
+    padding-top: 114px;
+    padding-bottom: 123px;
+}
+
+footer p{
+    margin-top: 23px;
+    margin-bottom: 35px;
+}
+
+.btn {
+    background: #070707;
+    border-radius: 20px;
+    height: 42px;
+    width: 180px;
+    margin-left: 380px;
+    margin-bottom: 85px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.btn a {
+    color: #fff;
+    font-family: GilroyBold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.socilmedia {
+    padding: 0;
+    margin-left: 300px;
+    display: block;
+}
+
+.socilmedia .item{
+    float: left;
+    display: block;
+    margin-right: 60px;
+}
